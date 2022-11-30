@@ -5,7 +5,7 @@ import oo.heranca.desafio.Ferrari;
 
 public class Teste {
 	public static void main(String[] args) {
-		Ferrari ferrari = new Ferrari(30);
+		Ferrari ferrari = new Ferrari();
 		
 		Civic civic = new Civic();
 		
@@ -15,7 +15,8 @@ public class Teste {
 		System.out.println(ferrari);
 		System.out.println(civic);
 		
-		ferrari.acelerar();		
+		ferrari.acelerar();
+		ferrari.ligarTurbo();	
 		civic.acelerar();
 		
 		System.out.println(ferrari);
