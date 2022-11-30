@@ -16,9 +16,7 @@ public class Pessoa {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-
-	
-	
+		
 	public void setIdade(int novaIdade) {
 		novaIdade = Math.abs(novaIdade);
 		if(novaIdade >= 0 && novaIdade <= 120) {
